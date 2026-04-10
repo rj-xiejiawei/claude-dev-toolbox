@@ -1,0 +1,29 @@
+{
+  "name": "dev-toolbox-install",
+  "description": "一键安装开发环境完整工具链",
+  "version": "1.0.0",
+  "categories": ["setup", "installation", "environment"],
+  "author": "claude",
+  "parameters": {
+    "installJava": {
+      "type": "boolean",
+      "description": "是否安装Java 17和Maven",
+      "default": true
+    },
+    "installGo": {
+      "type": "boolean",
+      "description": "是否安装Go",
+      "default": false
+    },
+    "installLarkSkills": {
+      "type": "boolean",
+      "description": "是否安装Lark skills",
+      "default": true
+    },
+    "configureN8n": {
+      "type": "boolean",
+      "description": "是否配置n8n MCP服务器",
+      "default": true
+    }
+  }
+}
